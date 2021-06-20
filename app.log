@@ -1,0 +1,42 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+INFO:app:Main request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:21:47] "GET / HTTP/1.1" 200 -
+INFO:app:Status request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:21:53] "GET /status HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+INFO:app:Status request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:22:45] "GET /status HTTP/1.1" 200 -
+INFO:app:Status request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:22:46] "GET /status HTTP/1.1" 200 -
+INFO:app:Status request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:22:47] "GET /status HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:22:52] "[33mGET /metrica HTTP/1.1[0m" 404 -
+INFO:app:Metrics request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:22:54] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+INFO:app:Main request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:38:08] "GET / HTTP/1.1" 200 -
+INFO:app:Status request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:38:15] "GET /status HTTP/1.1" 200 -
+INFO:app:Metrics request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:38:32] "GET /metrics HTTP/1.1" 200 -
+INFO:app:Main request log
+INFO:werkzeug:192.168.1.101 - - [20/Jun/2021 15:43:30] "GET / HTTP/1.1" 200 -
+2021-06-20 15:43:46 WARNING   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-20 15:43:46 INFO      * Running on http://192.168.1.101:5000/ (Press CTRL+C to quit)
+2021-06-20 15:43:49 INFO     Main endpoint was reached
+2021-06-20 15:43:49 INFO     192.168.1.101 - - [20/Jun/2021 15:43:49] "GET / HTTP/1.1" 200 -
+2021-06-20 15:43:57 INFO     Status endpoint was reached
+2021-06-20 15:43:57 INFO     192.168.1.101 - - [20/Jun/2021 15:43:57] "GET /status HTTP/1.1" 200 -
+2021-06-20 15:44:02 INFO     Metrics endpoint was reached
+2021-06-20 15:44:02 INFO     192.168.1.101 - - [20/Jun/2021 15:44:02] "GET /metrics HTTP/1.1" 200 -
